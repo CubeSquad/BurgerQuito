@@ -1,12 +1,12 @@
-/* 
+/*
 
 Foxebiz - Multipurpose html template
-Copyright 2019  www.mutationmedia.net 
-Created by : mutationthemes  
+Copyright 2019  www.mutationmedia.net
+Created by : mutationthemes
 
 */
 
-/* Table of Content ================================================== 
+/* Table of Content ==================================================
 
 1.Preloader
 2.Site wrapper
@@ -89,7 +89,7 @@ Created by : mutationthemes
         stroke: #b5a46d;
     }
 
-    
+
 }
  @keyframes spinner-dash {
      0% {
@@ -137,6 +137,7 @@ Created by : mutationthemes
     position: relative;
     text-align: center;
     top: 50%;
+    text-shadow:2px 2px 4px #000000;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
@@ -156,7 +157,7 @@ Created by : mutationthemes
     width:5rem;
 }
 .header-navbar {
-    padding:0; 
+    padding:0;
 }
 
 .header-navbar .navbar-brand{
@@ -202,7 +203,7 @@ Created by : mutationthemes
     display: none;
 }
 .main-slider .slides li{
-  
+
   padding-top: 25rem;
   padding-bottom: 12rem;
 }
@@ -376,7 +377,7 @@ Created by : mutationthemes
 
 .footer{
   position: relative;
-  margin-top: 3.1rem; 
+  margin-top: 3.1rem;
 }
 .footer-svg {
     position: absolute;
@@ -386,7 +387,7 @@ Created by : mutationthemes
     top: -55px;
 }
 .footer .footer-logo{
-    width: 3.8rem; 
+    width: 3.8rem;
 }
 .opening-hours-container {
     position: relative;
@@ -729,7 +730,7 @@ a[data-toggle="tab"] {
 .show > .btn-beige.dropdown-toggle {
  color: #ffffff;
     background-color: #b5a46d;
-  
+
 }
 section,
 .section {
@@ -932,7 +933,7 @@ h1 > a:hover, h2 > a:hover, h3 > a:hover, h4 > a:hover, h5 > a:hover, h6 > a:hov
 }
 @media (max-width: 991.98px) {
 .header-navbar {
-    padding:0; 
+    padding:0;
     max-height: 100vh;
     overflow-y: scroll;
 }
